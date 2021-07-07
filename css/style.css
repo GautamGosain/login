@@ -1,0 +1,71 @@
+.sm {
+  font-size: 0.5rem;
+}
+
+.forPass:hover {
+  cursor: pointer;
+}
+
+* {
+  overflow-x: hidden;
+}
+
+.sm {
+  font-size: 0.8rem !important;
+}
+
+body {
+  background: url("/img/task-pin.jpg") no-repeat center center/cover;
+}
+
+.row {
+  height: 100vh;
+}
+
+.overlay-dark {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.overlay-black {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar .nav-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-right: 1rem !important;
+  padding-left: 0.4rem !important;
+}
+
+
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+  font-weight: bold;
+}
+
+.NAVBAR img {
+  height: 70px;
+}
+
+.NAVBAR {
+  font-size: 36px;
+}
+
+.footer {
+  font-size: 20px;
+}
+
+.footer-img {
+  height: 30px;
+}
+
+#contents {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  nav {
+    position: relative !important;
+  }
+}
